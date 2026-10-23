@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Zayka | We are listening</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">Z</span
+          ><span>zayka<span class="brand-dot">.</span></span></a
+        >
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a><a href="about.html">About</a
+          ><a href="services.html">Services</a><a href="menu.html">Menu</a
+          ><a class="active" href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="search-link" href="menu.html" aria-label="Search menu">⌕</a
+          ><a class="cart-link" href="menu.html">Cart <span>0</span></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero contact-hero">
+        <div class="container page-hero-grid">
+          <div>
+            <p class="eyebrow"><span></span> We are listening</p>
+            <h1>Let's talk about <em>food.</em></h1>
+            <p>
+              Questions, feedback or just want to say hi? Send us a note and our
+              team will get back to you.
+            </p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1000&q=85"
+            alt="Fresh ingredients on a table"
+          />
+        </div>
+      </section>
+      <section class="section contact-section">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow"><span></span> Get in touch</p>
+            <h2>Tell us <em>everything.</em></h2>
+            <p class="contact-intro">
+              We usually reply within one working day. For order support, keep
+              your order number handy.
+            </p>
+            <div class="contact-details">
+              <div>
+                <strong>Aditya Kondekar</strong><span>Zayka founder</span>
+              </div>
+              <a href="mailto:adityakondekar86@gmail.com"
+                ><strong>Email us</strong
+                ><span>adityakondekar86@gmail.com</span></a
+              ><a href="tel:+919172823538"
+                ><strong>Call us</strong><span>+91 91728 23538</span></a
+              >
+              <div><strong>Hours</strong><span>Mon-Sun, 10am - 11pm</span></div>
+            </div>
+          </div>
+          <form
+            class="contact-form"
+            action="mailto:adityakondekar86@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <label for="name"
+              >Your name<input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Aapka naam"
+                required /></label
+            ><label for="email"
+              >Email address<input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="you@example.com"
+                required /></label
+            ><label for="message"
+              >How can we help?<textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write your message..."
+                required
+              ></textarea></label
+            ><button class="button button-primary" type="submit">
+              Send message <span>↗</span>
+            </button>
+          </form>
+        </div>
+      </section>
+      <section class="section faq-section" id="faq">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow"><span></span> Quick answers</p>
+              <h2>Frequently <em>asked.</em></h2>
+            </div>
+          </div>
+          <div class="faq-grid">
+            <details open>
+              <summary>Where does Zayka deliver?</summary>
+              <p>
+                We currently deliver across selected neighbourhoods. Enter your
+                area during checkout or send us a message to confirm.
+              </p>
+            </details>
+            <details id="areas">
+              <summary>How long does delivery take?</summary>
+              <p>
+                Most orders arrive within 20 to 40 minutes, depending on the
+                kitchen and your distance.
+              </p>
+            </details>
+            <details>
+              <summary>Can I order for someone else?</summary>
+              <p>
+                Yes. Add the recipient's address and phone number at checkout so
+                the rider can reach them.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="index.html"
+            ><span class="brand-mark">Z</span
+            ><span>zayka<span class="brand-dot">.</span></span></a
+          >
+          <p>Food that feels like home,<br />delivered to your door.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="about.html">About us</a
+          ><a href="services.html">Our services</a
+          ><a href="menu.html">Browse menu</a>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <a href="contact.html#faq">FAQs</a
+          ><a href="contact.html#areas">Delivery areas</a
+          ><a href="contact.html">Contact us</a>
+        </div>
+        <div>
+          <h4>Say hello</h4>
+          <a href="mailto:adityakondekar86@gmail.com"
+            >adityakondekar86@gmail.com</a
+          >
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2024 Zayka Foods</span
+        ><span>Made for food lovers everywhere</span>
+      </div>
+    </footer>
+  </body>
+</html>

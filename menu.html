@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu | Zayka Food Delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">Z</span
+          ><span>zayka<span class="brand-dot">.</span></span></a
+        >
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a><a href="about.html">About</a
+          ><a href="services.html">Services</a
+          ><a class="active" href="menu.html">Menu</a
+          ><a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="search-link" href="#menu-search" aria-label="Search menu"
+            >⌕</a
+          ><a class="cart-link" href="#cart" aria-label="View cart"
+            >Cart <span>0</span></a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero menu-hero">
+        <div class="container menu-hero-copy">
+          <p class="eyebrow"><span></span> Your next favourite meal</p>
+          <h1>Choose your <em>mood.</em></h1>
+          <p>Handpicked dishes from kitchens worth knowing about.</p>
+        </div>
+      </section>
+      <section class="section menu-section" id="menu">
+        <div class="container">
+          <div class="menu-toolbar" id="menu-search">
+            <div class="fake-search">
+              ⌕ <span>Search dishes, cuisines or kitchens</span>
+            </div>
+            <div class="filter-pills">
+              <a class="selected" href="#menu">All</a><a href="#pizza">Pizza</a
+              ><a href="#healthy">Healthy</a><a href="#sweet">Sweet</a>
+            </div>
+          </div>
+          <div class="dish-grid menu-dish-grid">
+            <article class="dish-card" id="pizza">
+              <div class="dish-image">
+                <img
+                  src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=85"
+                  alt="Margherita pizza"
+                /><span class="dish-tag">Bestseller</span
+                ><button class="add-button" aria-label="Add Margherita pizza">
+                  +
+                </button>
+              </div>
+              <div class="dish-info">
+                <div>
+                  <h3>Margherita pizza</h3>
+                  <p>Tomato, basil, mozzarella</p>
+                </div>
+                <strong class="price">₹349</strong>
+              </div>
+              <div class="dish-meta"><span>★ 4.8</span><span>25 min</span></div>
+            </article>
+            <article class="dish-card" id="healthy">
+              <div class="dish-image">
+                <img
+                  src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=85"
+                  alt="Healthy grain bowl"
+                /><span class="dish-tag tag-green">Fresh pick</span
+                ><button class="add-button" aria-label="Add grain bowl">
+                  +
+                </button>
+              </div>
+              <div class="dish-info">
+                <div>
+                  <h3>Green grain bowl</h3>
+                  <p>Avocado, greens, sesame</p>
+                </div>
+                <strong class="price">₹299</strong>
+              </div>
+              <div class="dish-meta"><span>★ 4.9</span><span>20 min</span></div>
+            </article>
+            <article class="dish-card">
+              <div class="dish-image">
+                <img
+                  src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&q=85"
+                  alt="Smash burger with fries"
+                /><span class="dish-tag tag-yellow">New</span
+                ><button class="add-button" aria-label="Add smash burger">
+                  +
+                </button>
+              </div>
+              <div class="dish-info">
+                <div>
+                  <h3>Classic smash</h3>
+                  <p>Double patty, secret sauce</p>
+                </div>
+                <strong class="price">₹289</strong>
+              </div>
+              <div class="dish-meta"><span>★ 4.7</span><span>20 min</span></div>
+            </article>
+            <article class="dish-card" id="sweet">
+              <div class="dish-image">
+                <img
+                  src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&q=85"
+                  alt="Glazed dessert"
+                /><button class="add-button" aria-label="Add glazed dessert">
+                  +
+                </button>
+              </div>
+              <div class="dish-info">
+                <div>
+                  <h3>Glazed doughnut</h3>
+                  <p>Vanilla glaze, toasted sugar</p>
+                </div>
+                <strong class="price">₹159</strong>
+              </div>
+              <div class="dish-meta"><span>★ 4.8</span><span>15 min</span></div>
+            </article>
+            <article class="dish-card">
+              <div class="dish-image">
+                <img
+                  src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=85"
+                  alt="Sushi platter"
+                /><span class="dish-tag tag-green">Fresh pick</span
+                ><button class="add-button" aria-label="Add sushi platter">
+                  +
+                </button>
+              </div>
+              <div class="dish-info">
+                <div>
+                  <h3>Signature sushi</h3>
+                  <p>Salmon, avocado, sesame</p>
+                </div>
+                <strong class="price">₹599</strong>
+              </div>
+              <div class="dish-meta"><span>★ 4.9</span><span>35 min</span></div>
+            </article>
+            <article class="dish-card">
+              <div class="dish-image">
+                <img
+                  src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=600&q=85"
+                  alt="Tasty tacos"
+                /><span class="dish-tag">Popular</span
+                ><button class="add-button" aria-label="Add taco fiesta">
+                  +
+                </button>
+              </div>
+              <div class="dish-info">
+                <div>
+                  <h3>Taco fiesta</h3>
+                  <p>Roasted corn, salsa, lime</p>
+                </div>
+                <strong class="price">₹249</strong>
+              </div>
+              <div class="dish-meta"><span>★ 4.8</span><span>20 min</span></div>
+            </article>
+          </div>
+          <div class="cart-note" id="cart">
+            <strong>Cart is ready for your order.</strong
+            ><span
+              >Add-to-cart interactions will be connected in the next app logic
+              step.</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="index.html"
+            ><span class="brand-mark">Z</span
+            ><span>zayka<span class="brand-dot">.</span></span></a
+          >
+          <p>Food that feels like home,<br />delivered to your door.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="about.html">About us</a
+          ><a href="services.html">Our services</a
+          ><a href="menu.html">Browse menu</a>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <a href="contact.html#faq">FAQs</a
+          ><a href="contact.html#areas">Delivery areas</a
+          ><a href="contact.html">Contact us</a>
+        </div>
+        <div>
+          <h4>Say hello</h4>
+          <a href="mailto:adityakondekar86@gmail.com"
+            >adityakondekar86@gmail.com</a
+          >
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2024 Zayka Foods</span
+        ><span>Made for food lovers everywhere</span>
+      </div>
+    </footer>
+  </body>
+</html>
